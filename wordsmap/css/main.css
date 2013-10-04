@@ -1,0 +1,40 @@
+.container {
+   height: auto;
+   overflow: hidden;
+}
+
+.right {
+	height: 760px;
+    width: 300px;
+    float: left;
+}
+
+#main {
+	height: 770px;
+	width: 970px;
+    float: left; /* not needed, just for clarification */
+    display: hidden;
+    border: solid 1px #000;
+}
+#zoom {
+	height: 770px;
+	width: 970px;
+    float: left; /* not needed, just for clarification */
+    display: none;
+    border: solid 1px #000;
+}
+
+#main div{
+	position: fixed;
+}
+
+#zoom div{
+	position: fixed;
+}
+
+#mouse_box{
+	position: fixed;
+	width: 50px;
+	height: 50px;
+	border: solid 1px #000;
+}
