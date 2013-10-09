@@ -1,0 +1,15 @@
+div.word_left{
+	width: 125px;
+	float: left;
+	font-size: 20px;
+	text-align: center;
+	line-height: 35px;
+}
+
+div.bar_right{
+	float: left;
+}
+
+div#color_scale_div{
+	float: right;
+}

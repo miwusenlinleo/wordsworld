@@ -16,20 +16,24 @@
 
       	<div class="hero-unit">
         	<h2>
-        		Enter some Words, one per input box. 
+        		Enter one or more words, seperated by ',' <br />Visualize their difference in color space.
         		<!--<button type="submit" class="btn" id="addWordBtn">Add Word</button>-->
-        		<button type="submit" class="btn" id="runBtn">Run!</button>
+        		<button type="submit" class="btn" id="runBtn">Click to Run!</button>
+        		<button type="submit" class="btn" id="luckBtn">Try Some Luck!</button>
         	</h2>
         	<div id="wordInputs">
         		<span>
-        			<input type="text" placeholder="Type one ore more words, seperate by '\,\'" />
-        			<!--<i class="icon-trash"></i>-->
+        			<input id="input_words" type="text" placeholder="Type one ore more words, seperate by ','" style="width: 500px" />
+        			<div id="color_scale_div">
+						<canvas id="color_scale" width="255" height="40" style="border:1px solid #d3d3d3;"></canvas>
+					</div>
         		</span>
         	</div>
 
         	<div id="wordsNotFound">
         		Words Not found:  <span id="words"></span>
         	</div>
+
       	</div>
 
     
@@ -38,8 +42,8 @@
 		</div>
 		<script src="js/jquery-1.10.2.min.js" type="text/javascript"></script>
 		<script src="js/bootstrap.min.js"></script>
-		<script src="js/2d_data.js"></script>
 		<script src="data/embeddings.js"></script>
+		<script src="js/2d_data.js"></script>
 		<script src="js/demo.js"></script>
 	</body>
 </html>
