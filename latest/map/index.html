@@ -1,0 +1,55 @@
+<!doctype html>  
+<html lang="en">
+	<head>
+		<script src="../js/jquery-1.10.2.min.js"></script>
+		<script src="../js/bootstrap.min.js"></script>
+		<script src="../js/punch.js"></script>
+		<script src="http://code.jquery.com/ui/1.10.3/jquery-ui.js"></script>
+
+		<link rel="stylesheet" type="text/css" href="../css/bootstrap-responsive.min.css">
+		<link rel="stylesheet" type="text/css" href="../css/bootstrap.min.css">
+		<link rel="stylesheet" type="text/css" href="../css/wordsmap.css">
+
+		<title> Words World </title>
+
+		<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+	</head>
+	
+	<body>
+		<div class="container">
+		    <div class="navbar navbar-fixed-top">  
+	  			<div class="navbar-inner">  
+	    			<div class="container">  
+	    				<ul class="nav">  
+	  						<li><a href="http://www.wenbin.us/wordsworld/" class="brand">WordsWorld</a></li>
+	  						<li class="active"><a href="http://www.wenbin.us/wordsworld/map">2D Map</a></li>
+	  						<li><a href="http://www.wenbin.us/wordsworld/colorbar">Color Bar</a></li>
+	  						<li><a href="http://www.wenbin.us/wordsworld/colorpie">Color Pie</a></li>
+						</ul>
+	    			</div>  
+	  			</div>  
+			</div>
+		</div>	
+		<div class="container-fluid">
+	  		<div class="row-fluid">
+	    		<div class="span3">
+					<div id="toolbox">
+						<div id="navigation_panel">
+							<span id="left"><a href="#">left</a></span>
+							<span id="right"><a href="#">right</a></span>
+							<span id="zoom"><a href="#">zoom</a></span>
+							<span id="up"><a href="#">up</a></span>
+							<span id="down"><a href="#">down</a></span>
+						</div>
+					</div>
+	    		</div>
+	    		<div class="span9">		
+					<div id="viewport">
+						<div id="loading"><img src="../img/loading.gif"/></div>
+						<div id="map"></div>
+					</div>
+	    		</div>
+	  		</div>
+		</div>		
+	</body>
+</html>

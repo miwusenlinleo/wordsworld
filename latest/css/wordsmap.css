@@ -1,0 +1,22 @@
+body {
+  font: 16px 'Open Sans', "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+  background: #ccc;
+}
+
+.container-fluid {
+    margin-top: 70px; 
+}
+
+#viewport { width: 874px; height: 600px; box-shadow: 3px 3px 3px 3px #888888; float: left; background: #fff }
+#toolbox { width: 98%; height: 600px; box-shadow: 3px 3px 3px 3px #888888; float: left }
+
+#navigation_panel span{ position: fixed; }
+#navigation_panel span#down{ top: 167px; left: 130px; }
+#navigation_panel span#right{ left:197px; top:120px;}
+#navigation_panel span#up{ left:140px; }
+#navigation_panel span#left{ top:120px; left: 58px;}
+#navigation_panel span#zoom{ top:120px; left:129px;}
+
+#loading { position:relative; top: 270px; left: 400px; }
+
+div.word { position:fixed; }
